@@ -1,0 +1,36 @@
+//C++
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int T = 0, x = 0, y = 0;
+    cin>>T;
+    for (int t=0; t<T; t++) {
+        cin>>x>>y;
+        if (x+y > 6)
+            cout<<"YES \n";
+        else
+            cout<<"NO \n";
+    }
+	// your code goes here
+	return 0;
+}
+
+//C
+
+#include <stdio.h>
+
+int main(void) {
+    int T = 0, x = 0, y = 0;
+    scanf("%d", &T);
+    for (int t=0; t<T; t++) {
+        scanf("%d%d",&x,&y);
+        if (x+y > 6)
+            printf("YES \n");
+        else
+            printf("NO \n");
+    }
+	// your code goes here
+	return 0;
+}
